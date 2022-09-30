@@ -10,4 +10,9 @@ public class JhooqDockerDemoController {
     public String hello() {
         return "New Version 1.1 Docker Demo - Hello Jhooq";
     }
+    @GetMapping("/test")
+    public String test() {
+        return "This is test";
+    }
+
 }
